@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Navrea</title>
+<meta name="description" content="Navrea édite des applications mobiles indépendantes. Première application : Luna, un suivi de cycle menstruel chiffré de bout en bout.">
+<style>
+  :root { --bg:#FAF5F0; --card:#fff; --rose:#B5446E; --gold:#C9A96E; --plum:#1C1434;
+          --muted:#6B6270; --border:#EDE6E0; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0 18px 72px; background:var(--bg); color:var(--plum);
+         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         line-height:1.65; font-size:16px; }
+  header { max-width:680px; margin:0 auto; padding:72px 0 40px; text-align:center; }
+  .mark { font-size:40px; font-weight:300; letter-spacing:6px; text-transform:uppercase;
+          margin:0 0 10px; }
+  .rule { width:52px; height:2px; background:var(--gold); margin:0 auto 18px; border-radius:2px; }
+  .tagline { color:var(--muted); font-size:16px; margin:0; }
+  main { max-width:680px; margin:0 auto; }
+  section { background:var(--card); border:1px solid var(--border); border-radius:18px;
+            padding:28px 26px; margin:0 0 18px; }
+  h2 { font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase;
+       color:var(--muted); margin:0 0 16px; }
+  .app-name { font-size:26px; margin:0 0 4px; letter-spacing:-0.5px; }
+  .app-status { display:inline-block; font-size:12px; font-weight:700; letter-spacing:0.5px;
+                color:var(--gold); border:1px solid var(--gold); border-radius:999px;
+                padding:3px 11px; margin:0 0 14px; }
+  p { margin:0 0 14px; }
+  p:last-child { margin-bottom:0; }
+  ul.links { list-style:none; padding:0; margin:18px 0 0; display:flex; flex-wrap:wrap; gap:10px; }
+  ul.links a { display:inline-block; padding:10px 16px; border:1px solid var(--border);
+               border-radius:12px; text-decoration:none; color:var(--rose); font-size:14.5px;
+               font-weight:700; }
+  a { color:var(--rose); }
+  footer { max-width:680px; margin:26px auto 0; color:var(--muted); font-size:13px;
+           text-align:center; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141018; --card:#1E1826; --plum:#F2ECF2; --muted:#A79FAF; --border:#332B3B; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="mark">Navrea</p>
+  <div class="rule"></div>
+  <p class="tagline">Applications mobiles indépendantes</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Application</h2>
+    <p class="app-name">Luna</p>
+    <p class="app-status">En préparation</p>
+    <p>
+      Un suivi de cycle menstruel pensé pour celles qui ne veulent pas confier leur santé à un
+      serveur. Cycle, symptômes, humeur, douleurs et notes sont chiffrés sur le téléphone avant
+      d'être sauvegardés : la clé est dérivée du mot de passe et ne quitte jamais l'appareil.
+      Nous n'avons aucun moyen technique de lire ces données.
+    </p>
+    <p>
+      Luna calcule des prédictions de cycle, tient un journal quotidien, cartographie les douleurs
+      et produit un récapitulatif à emporter en consultation. Aucune publicité, aucun traceur,
+      aucune revente de données.
+    </p>
+    <ul class="links">
+      <li><a href="https://navrea.github.io/luna-legal/confidentialite.html">Politique de confidentialité</a></li>
+      <li><a href="https://navrea.github.io/luna-legal/cgu.html">Conditions d'utilisation</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Navrea est le nom sous lequel Alexis Barthou, éditeur individuel en France, publie ses
+      applications.
+    </p>
+    <p>
+      Pour toute question, demande relative à des données personnelles ou signalement :
+      <a href="mailto:navrea.dev@gmail.com">navrea.dev@gmail.com</a>.
+    </p>
+  </section>
+
+</main>
+
+<footer>Navrea &middot; navrea.dev@gmail.com</footer>
+
+</body>
+</html>
